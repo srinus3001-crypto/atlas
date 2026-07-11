@@ -1,6 +1,16 @@
 modules = ["python-3.11"]
+
+run = "uvicorn atlas.api.server:app --host 0.0.0.0 --port 8000"
+
 [agent]
 expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["undollar", "mailutils"]
+
+[deployment]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8000

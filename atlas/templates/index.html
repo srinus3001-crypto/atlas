@@ -1,0 +1,63 @@
+<body>
+
+<div class="container">
+
+    <h1>🧠 Atlas Enterprise OS</h1>
+
+    <div class="card">
+
+        <h2>Mission Repository</h2>
+
+        {% if missions %}
+
+            <table>
+
+                <tr>
+                    <th>Mission</th>
+                    <th>Research</th>
+                    <th>Content</th>
+                </tr>
+
+                {% for mission in missions %}
+
+                <tr>
+
+                    <td>
+                        <a href="/mission/{{ mission.id }}">
+                            {{ mission.id }}
+                        </a>
+                    </td>
+
+                    <td>
+                        {% if mission.research %}
+                            ✅
+                        {% else %}
+                            ❌
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        {% if mission.content %}
+                            ✅
+                        {% else %}
+                            ❌
+                        {% endif %}
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </table>
+
+        {% else %}
+
+            <p>No missions found.</p>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+</body>
