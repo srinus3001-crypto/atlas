@@ -1,0 +1,58 @@
+{
+    "workspace_id": "P001",
+    "primary_audience": [
+        "Software engineers and developers (junior to senior)",
+        "Computer science students and recent graduates",
+        "Engineering managers and CTOs making hiring/tooling decisions",
+        "Tech professionals evaluating career longevity in software roles"
+    ],
+    "secondary_audience": [
+        "HR professionals and technical recruiters",
+        "Startup founders and product managers",
+        "AI/ML researchers and practitioners",
+        "Tech journalists and industry analysts",
+        "Career changers considering entering tech",
+        "Educators in coding bootcamps and CS programs",
+        "Investors evaluating tech workforce trends"
+    ],
+    "pain_points": [
+        "Fear of job displacement and career obsolescence",
+        "Uncertainty about which skills remain valuable long-term",
+        "Anxiety about return on investment in CS education",
+        "Difficulty distinguishing hype from genuine capability shifts in AI",
+        "Pressure to rapidly upskill in AI tools without clear guidance",
+        "Confusion about how to position themselves competitively in the job market",
+        "Concern about salary stagnation or reduction due to AI-augmented productivity expectations",
+        "Lack of clarity from employers about future team structures and roles"
+    ],
+    "motivations": [
+        "Desire to future-proof their careers and skill sets",
+        "Need for actionable guidance on adapting to AI-augmented workflows",
+        "Curiosity about realistic timelines and capabilities of AI in coding",
+        "Interest in maintaining or advancing career trajectory and compensation",
+        "Seeking reassurance or validated data to counter fear-based narratives",
+        "Wanting to make informed decisions about specialization (e.g., AI oversight, systems design vs. routine coding)",
+        "Desire to understand competitive advantage of human judgment, creativity, and domain expertise over automation"
+    ],
+    "platforms": [
+        "LinkedIn",
+        "Twitter/X",
+        "Hacker News",
+        "Reddit (r/programming, r/cscareerquestions, r/ExperiencedDevs)",
+        "YouTube (tech commentary channels)",
+        "Dev.to and Medium",
+        "Industry newsletters (e.g., Pragmatic Engineer, TLDR)",
+        "Podcasts (software engineering and tech career-focused)",
+        "Tech conferences and webinars"
+    ],
+    "search_intent": [
+        "Informational: Understanding current AI capabilities vs. human software engineering skills",
+        "Navigational: Seeking expert opinions, reports, or studies on AI's impact on the profession",
+        "Commercial: Researching AI tools/courses to stay competitive",
+        "Career planning: Evaluating whether to pursue, continue, or pivot from a software engineering career",
+        "Validation-seeking: Looking for reassurance or counterarguments to alarmist narratives",
+        "Comparative: Comparing AI-assisted coding tools and their real-world impact on productivity and job roles"
+    ],
+    "recommended_tone": "Balanced, data-driven, and empathetic—avoiding both alarmist hype and dismissive reassurance. Should acknowledge genuine concerns while providing evidence-based perspective, practical guidance, and nuanced insight into how roles are evolving rather than disappearing outright.",
+    "summary": "The topic 'AI replaces Software Engineers?' resonates strongly with tech professionals, especially developers and CS students, who face real anxiety about career security amid rapid AI advancements in code generation. The audience seeks credible, nuanced analysis over sensationalism—content that clarifies what AI can and cannot do, offers strategic guidance on skill adaptation, and addresses both fear and curiosity. Engagement is highest on developer-centric platforms where technical credibility and practical takeaways are valued over speculative hype."
+}

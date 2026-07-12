@@ -5,7 +5,9 @@ Market Analyst
 from atlas.core.employees.enterprise_employee import EnterpriseEmployee
 
 from atlas.departments.research.models.market_report import MarketReport
-from atlas.departments.research.repository.research_repository import ResearchRepository
+from atlas.departments.research.repository.research_repository import (
+    ResearchRepository,
+)
 
 
 class MarketAnalyst(EnterpriseEmployee):
@@ -44,4 +46,7 @@ Business:
         )
 
     def save(self, report):
-        ResearchRepository().save_market_report(report)
+        ResearchRepository().save(
+            "market.json",
+            report,
+        )
