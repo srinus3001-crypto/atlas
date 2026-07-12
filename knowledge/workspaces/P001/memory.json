@@ -1,6 +1,23 @@
 {
-    "portfolio": "AI replaces Software Engineers?",
-    "knowledge": [],
+    "workspace_id": "P001",
+    "knowledge": {
+        "market": {
+            "size": "$5B",
+            "growth": "35% CAGR"
+        },
+        "FakeEmployee": {
+            "status": "success",
+            "employee": "FakeEmployee"
+        }
+    },
+    "artifacts": {},
+    "facts": [],
     "lessons": [],
-    "decisions": []
+    "decisions": [],
+    "history": [],
+    "metadata": {
+        "portfolio": "AI replaces Software Engineers?"
+    },
+    "created_at": "2026-07-12T12:07:25.668230",
+    "updated_at": "2026-07-12T12:07:25.668410"
 }
