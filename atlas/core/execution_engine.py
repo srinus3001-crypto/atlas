@@ -1,133 +1,84 @@
-
 """
-
 Execution Engine
-
-
-
-Coordinates execution across multiple Atlas offices.
-
 """
 
-
-
-from atlas.core.logger import Logger
-
-from atlas.offices.office_registry import OfficeRegistry
-
-from atlas.knowledge.memory import MemoryRepository
-
-
-
+from atlas.models.mission_status import MissionStatus
+from atlas.offices.research_office import ResearchOffice
+from atlas.offices.content_office import ContentOffice
+from atlas.services.status_service import StatusService
 
 
 class ExecutionEngine:
-
-
-
     def __init__(self):
-
-
-
-        self.registry = OfficeRegistry()
-
-        self.memory = MemoryRepository()
-
-
+        self.status = StatusService()
 
     def execute(self, mission):
+        print(f"[INFO] Execution Engine received mission {mission.mission_id}")
 
+        try:
+            # ----------------------------
+            # Research Stage
+            # ----------------------------
+            mission.status = MissionStatus.RESEARCH
 
-
-        Logger.info(
-
-            f"Execution Engine received mission {mission.mission_id}"
-
-        )
-
-
-
-        current_office = mission.owner_office
-
-
-
-        last_result = None
-
-
-
-        while current_office:
-
-
-
-            office = self.registry.get(current_office)
-
-
-
-            if office is None:
-
-
-
-                Logger.error(
-
-                    f"Office '{current_office}' not found"
-
-                )
-
-
-
-                break
-
-
-
-            Logger.info(
-
-                f"Executing Office : {current_office}"
-
+            self.status.update(
+                mission.mission_id,
+                "Research",
+                25,
+                "Research Office Started",
             )
 
+            print("[INFO] Executing Office : Research")
 
+            ResearchOffice().execute(mission)
 
-            result = office.execute(mission)
-
-
-
-            Logger.info(
-
-                f"Office Result : {result.status}"
-
+            self.status.update(
+                mission.mission_id,
+                "Content",
+                60,
+                "Research Completed",
             )
 
+            # ----------------------------
+            # Content Stage
+            # ----------------------------
+            mission.status = MissionStatus.CONTENT
 
+            self.status.update(
+                mission.mission_id,
+                "Content",
+                75,
+                "Content Office Started",
+            )
 
-            self.memory.save(result)
+            print("[INFO] Executing Office : Content")
 
+            ContentOffice().execute(mission)
 
+            # ----------------------------
+            # Completed
+            # ----------------------------
+            mission.status = MissionStatus.COMPLETED
 
-            last_result = result
+            self.status.update(
+                mission.mission_id,
+                "Completed",
+                100,
+                "Mission Completed",
+            )
 
+            print("[INFO] Mission Workflow Completed")
 
+        except Exception as e:
+            mission.status = MissionStatus.FAILED
 
-            current_office = result.next_office
+            self.status.update(
+                mission.mission_id,
+                "Failed",
+                100,
+                str(e),
+            )
 
+            print(f"[ERROR] {e}")
 
-
-            if current_office:
-
-
-
-                Logger.info(
-
-                    f"Routing Mission -> {current_office}"
-
-                )
-
-
-
-        Logger.info("Mission Workflow Completed")
-
-
-
-        return last_result
-
-
-
+            raise

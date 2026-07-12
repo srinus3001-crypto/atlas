@@ -1,22 +1,27 @@
 """
-AI Response
+AI Response Model
 """
 
 from dataclasses import dataclass
+from typing import Any
 
 
 @dataclass
 class AIResponse:
-
     success: bool
 
-    raw_response: str
+    content: Any
 
-    parsed_data: dict | None = None
+    raw_text: str
 
-    tokens_used: int = 0
+    model: str
 
-    model: str = ""
+    stop_reason: str
 
-    error: str = ""
+    input_tokens: int
 
+    output_tokens: int
+
+    total_tokens: int
+
+    error: str | None = None

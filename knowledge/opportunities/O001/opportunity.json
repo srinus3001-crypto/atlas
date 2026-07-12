@@ -1,0 +1,14 @@
+{
+    "opportunity_id": "O001",
+    "title": "AI replaces Software Engineers?",
+    "niche": "AI",
+    "source": "Mock",
+    "description": "Trending discussion around AI replacing coding jobs.",
+    "trend_score": 96,
+    "revenue_score": 91,
+    "competition_score": 62,
+    "evergreen_score": 74,
+    "overall_score": 82,
+    "status": "Discovered",
+    "created_at": "2026-07-12 08:56:46.704065"
+}

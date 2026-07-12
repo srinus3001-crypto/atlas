@@ -1,63 +1,95 @@
-<body>
+{% extends "base.html" %}
 
-<div class="container">
+{% block content %}
 
-    <h1>🧠 Atlas Enterprise OS</h1>
+<h1>Mission Repository</h1>
 
-    <div class="card">
+<div class="card">
 
-        <h2>Mission Repository</h2>
+    <h2>Launch Mission</h2>
 
-        {% if missions %}
+    <form action="/launch" method="post">
 
-            <table>
+        <input
+            type="text"
+            name="goal"
+            placeholder="Describe a business goal..."
+            required
+        >
 
-                <tr>
-                    <th>Mission</th>
-                    <th>Research</th>
-                    <th>Content</th>
-                </tr>
+        <br><br>
 
-                {% for mission in missions %}
+        <button type="submit">
+            🚀 Launch Mission
+        </button>
 
-                <tr>
-
-                    <td>
-                        <a href="/mission/{{ mission.id }}">
-                            {{ mission.id }}
-                        </a>
-                    </td>
-
-                    <td>
-                        {% if mission.research %}
-                            ✅
-                        {% else %}
-                            ❌
-                        {% endif %}
-                    </td>
-
-                    <td>
-                        {% if mission.content %}
-                            ✅
-                        {% else %}
-                            ❌
-                        {% endif %}
-                    </td>
-
-                </tr>
-
-                {% endfor %}
-
-            </table>
-
-        {% else %}
-
-            <p>No missions found.</p>
-
-        {% endif %}
-
-    </div>
+    </form>
 
 </div>
 
-</body>
+<div class="card">
+
+<table>
+
+    <tr>
+        <th>Mission</th>
+        <th>Status</th>
+        <th>Research</th>
+        <th>Content</th>
+    </tr>
+
+    {% for mission in missions %}
+
+    <tr>
+
+        <td>
+            <a href="/mission/{{ mission.id }}">
+                {{ mission.id }}
+            </a>
+        </td>
+
+        <td>
+
+            {% if mission.status == "Queued" %}
+                🟡 Queued
+            {% elif mission.status == "Research" %}
+                🔵 Research
+            {% elif mission.status == "Content" %}
+                🟣 Content
+            {% elif mission.status == "Completed" %}
+                🟢 Completed
+            {% elif mission.status == "Failed" %}
+                🔴 Failed
+            {% endif %}
+
+        </td>
+
+        <td>
+
+            {% if mission.research %}
+                ✅
+            {% else %}
+                ⏳
+            {% endif %}
+
+        </td>
+
+        <td>
+
+            {% if mission.content %}
+                ✅
+            {% else %}
+                ⏳
+            {% endif %}
+
+        </td>
+
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+</div>
+
+{% endblock %}

@@ -1,18 +1,17 @@
+from atlas.core.id_generator import IDGenerator
 from atlas.models.mission import Mission
 from atlas.models.mission_status import MissionStatus
 from atlas.core.logger import Logger
 
 
 class MissionManager:
-
     def create_demo_mission(self):
-
         mission = Mission(
-            mission_id="M001",
+            mission_id=IDGenerator().next_mission_id(),
             title="Build AI Media Company",
             objective="Generate ₹1 lakh/month",
             priority="HIGH",
-            owner_office="Research"
+            owner_office="Research",
         )
 
         Logger.info(f"Mission Created : {mission.mission_id}")
@@ -20,11 +19,8 @@ class MissionManager:
         return mission
 
     def validate(self, mission):
-
         mission.status = MissionStatus.VALIDATED
 
-        Logger.info(
-            f"Mission {mission.mission_id} -> {mission.status.value}"
-        )
+        Logger.info(f"Mission {mission.mission_id} -> {mission.status.value}")
 
         return mission

@@ -22,6 +22,12 @@ class MissionService:
                 missions.append(
                     {
                         "id": folder.name,
+                        "status": (
+                            "Completed"
+                            if (folder / "research.md").exists()
+                            and (folder / "content.md").exists()
+                            else "Queued"
+                        ),
                         "research": (folder / "research.md").exists(),
                         "content": (folder / "content.md").exists(),
                     }

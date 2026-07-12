@@ -1,12 +1,13 @@
+"""
+Mission Status
+"""
+
 from enum import Enum
 
 
-class MissionStatus(Enum):
-    CREATED = "Created"
-    VALIDATED = "Validated"
-    PLANNED = "Planned"
-    ASSIGNED = "Assigned"
-    EXECUTING = "Executing"
-    REVIEW = "Review"
-    LEARNING = "Learning"
+class MissionStatus(str, Enum):
+    QUEUED = "Queued"
+    RESEARCH = "Research"
+    CONTENT = "Content"
     COMPLETED = "Completed"
+    FAILED = "Failed"

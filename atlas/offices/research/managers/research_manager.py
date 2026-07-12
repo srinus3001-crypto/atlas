@@ -13,9 +13,7 @@ from atlas.employees.employee_registry import EmployeeRegistry
 
 
 class ResearchManager:
-
     def execute(self, mission):
-
         Logger.info("Research Manager started")
 
         employee = EmployeeRegistry.research_director()
@@ -44,29 +42,27 @@ Schema:
   "recommended_next_actions":"",
   "confidence":95
 }
-"""
+""",
         )
 
         Logger.info("Submitting research request to Atlas AI")
 
-        response = AIService().generate(
-            task="research",
-            prompt=prompt
-        )
+        ai_response = AIService().generate(task="research", prompt=prompt)
 
         Logger.info("Research received from Claude")
 
-        report = ResearchParser().parse(
-            mission,
-            response
-        )
+        Logger.info(f"Model: {ai_response.model}")
 
-        ArtifactWriter().save_research(
-            mission,
-            report
-        )
+        Logger.info(f"Input Tokens : {ai_response.input_tokens}")
+
+        Logger.info(f"Output Tokens : {ai_response.output_tokens}")
+
+        Logger.info(f"Stop Reason : {ai_response.stop_reason}")
+
+        report = ResearchParser().parse(mission, ai_response.content)
+
+        ArtifactWriter().save_research(mission, report)
 
         Logger.info("Research report generated")
 
         return report
-

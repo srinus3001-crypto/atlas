@@ -1,0 +1,6 @@
+{
+    "mission": "M009",
+    "stage": "Failed",
+    "progress": 100,
+    "message": "Unterminated string starting at: line 1 column 3125 (char 3124)"
+}

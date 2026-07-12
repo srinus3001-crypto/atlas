@@ -1,5 +1,6 @@
 """
 Research Report
+
 Structured output from the Research Office.
 """
 
@@ -8,10 +9,23 @@ from dataclasses import dataclass, field
 
 @dataclass
 class ResearchReport:
-
     mission_id: str
 
     executive_summary: str
+
+    market_size: str
+
+    audience_analysis: str
+
+    competitor_analysis: str
+
+    top_opportunities: str
+
+    revenue_strategy: str
+
+    risks: str
+
+    recommended_next_actions: str
 
     recommended_niches: list = field(default_factory=list)
 
@@ -21,8 +35,6 @@ class ResearchReport:
 
     opportunities: list = field(default_factory=list)
 
-    risks: list = field(default_factory=list)
-
     action_plan: list = field(default_factory=list)
 
-    confidence: int = 0
+    confidence: int = 90

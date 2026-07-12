@@ -1,6 +1,5 @@
 """
 Atlas AI Service
-Routes AI requests to the configured provider.
 """
 
 from atlas.core.logger import Logger
@@ -11,9 +10,7 @@ from atlas.providers.claude_provider import ClaudeProvider
 
 
 class AIService:
-
     def __init__(self):
-
         if ai_settings.PROVIDER == "mock":
             self.provider = MockProvider()
 
@@ -21,14 +18,9 @@ class AIService:
             self.provider = ClaudeProvider()
 
         else:
-            raise ValueError(
-                f"Unsupported AI Provider: {ai_settings.PROVIDER}"
-            )
+            raise ValueError(f"Unsupported AI Provider: {ai_settings.PROVIDER}")
 
     def generate(self, task: str, prompt: str):
-
-        Logger.info(
-            f"AI Service using provider: {ai_settings.PROVIDER}"
-        )
+        Logger.info(f"AI Service using provider: {ai_settings.PROVIDER}")
 
         return self.provider.generate(prompt)

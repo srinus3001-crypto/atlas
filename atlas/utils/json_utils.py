@@ -6,19 +6,10 @@ import json
 
 
 class JsonUtils:
-
     @staticmethod
-    def extract_json(text):
+    def parse(text: str):
+        try:
+            return json.loads(text)
 
-        text = text.strip()
-
-        if text.startswith("```json"):
-            text = text.replace("```json", "", 1)
-
-        if text.endswith("```"):
-            text = text[:-3]
-
-        text = text.strip()
-
-        return json.loads(text)
-
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON returned by AI: {e}")

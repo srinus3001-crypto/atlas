@@ -1,0 +1,75 @@
+# Content Strategy
+
+**Niche:** AI + Business/Finance Education (highest CPM intersection for Indian audience)
+
+**Format Mix:** Long-form YouTube (8-12 min) → repurposed into 5-6 Shorts/Reels → newsletter recap for email/WhatsApp list
+
+**Positioning:** "AI-augmented, not AI-automated" — real research, real voice, AI as a production accelerant, not a replacement for credibility. This directly exploits the trust gap left by low-quality AI content farms.
+
+**Revenue Model Alignment:** This video itself functions as a top-of-funnel asset — it builds authority in the AI/business niche while naturally setting up affiliate mentions (AI tools) and a future digital product (template/course) CTA.
+
+**Cadence:** Publish 2x/week long-form, daily Shorts, weekly newsletter. Consistency compounds the algorithm's trust in the channel faster than sporadic "viral swing" content.
+
+---
+
+# Video Title
+
+**"I Used AI to Build a ₹1 Lakh/Month Media Business — Here's the Exact Blueprint"**
+
+*(Alt options for A/B testing thumbnails/titles:)*
+- "How AI Creators Are Quietly Making ₹1L+/Month in India"
+- "The AI Content Business Model Nobody's Talking About"
+
+---
+
+# Hook
+
+*(First 15 seconds — spoken directly to camera, fast cuts)*
+
+"Right now, there are people in India making a lakh a month — not by trading, not by freelancing — but by running a YouTube channel that AI helps them build in half the time. No, it's not some spammy AI content farm. It's smarter than that. And today, I'm going to show you the exact model — the niches, the revenue mix, and the mistakes that get 90% of people stuck at zero."
+
+---
+
+# Full Video Script
+
+**[0:00–0:15] HOOK**
+(As above)
+
+**[0:15–0:45] THE PROBLEM**
+"Most people trying to build a content business make one of two mistakes. Either they go fully manual — one person, one camera, burning out after 20 videos. Or they go fully automated — AI voice, AI script, zero soul — and the audience can smell it instantly. Both paths lead to the same place: no growth, no revenue, no trust.
+
+There's a third path. And it's the one actually working right now."
+
+**[0:45–1:30] THE MARKET REALITY**
+"Here's the thing — India has one of the largest digital audiences on the planet. YouTube, Reels, WhatsApp forwards — this is where attention lives. And advertisers are following that attention with real budgets. You don't need a million subscribers to make real money. At even 100,000 to 1 million engaged followers in the right niche, you're looking at a market worth tens of millions of rupees annually. A ₹1 Lakh/month target isn't ambitious — it's a rounding error in this space, IF you position correctly."
+
+**[1:30–2:15] WHO THIS WORKS FOR**
+"The audience that pays attention — and pays money — breaks into three groups:
+1. Urban professionals, 20 to 40, hungry for AI, tech, and business content.
+2. Students and early-career folks who want upskilling and career direction.
+3. Small business owners looking for practical automation and tools.
+
+These people are on YouTube and Instagram, they consume in English and Hindi, and — this is the key part — they already buy courses, templates, and tools when they trust the source. Your job isn't just to entertain them. It's to earn that trust."
+
+**[2:15–3:00] WHY MOST COMPETITORS FAIL**
+"Look at the landscape. You've got established creators with years of trust built in — hard to out-compete head-on. And you've got a flood of fully-automated AI channels — generic scripts, robotic voice, zero credibility. Audiences are getting better at spotting that garbage. That's your opening. Nobody is consistently combining real expertise + AI-accelerated production + multi-format distribution. That gap is where you build."
+
+**[3:00–4:00] THE FIVE OPPORTUNITIES**
+"Let me break down exactly where the money is:
+
+Number one — AI and tech explainer content for professionals and students. Monetize through sponsorships and course upsells.
+
+Number two — Finance and business commentary, using AI for research and scripting speed, so you can publish faster and more consistently than manual creators.
+
+Number three — A short-form repurposing engine. One long video becomes five or six Reels and Shorts. This is your growth accelerant.
+
+Number four — Affiliate revenue. Every AI tool or software you genuinely use and recommend becomes a commission stream.
+
+Number five — and this is the big one — owned digital products. Templates, mini-courses, prompt packs, sold directly to your email and WhatsApp list. This is the highest-margin revenue you'll ever make, because you're not splitting it with a platform."
+
+**[4:00–5:00] THE REVENUE MIX THAT ACTUALLY WORKS**
+"Here's the mistake almost everyone makes — they treat YouTube ad revenue as the goal. It's not. Ad revenue is unpredictable, it's platform-dependent, and it requires watch-time thresholds you won't hit for months.
+
+The smarter mix: aim for 60 to 70% of your revenue from owned products and affiliates, and only 30 to 40% from ads and sponsorships. This isn't just safer — it lets you hit ₹1 Lakh/month with a far smaller audience than you'd think, because a 500-rupee template sold to 200 people in your list is worth more than 50,000 views of ad revenue."
+
+**[5

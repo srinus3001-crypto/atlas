@@ -1,0 +1,17 @@
+{
+    "workspace_id": "P001",
+    "market_size": "The global AI software market is estimated at approximately $150-200 billion in 2024, with the AI code generation/developer tools segment (GitHub Copilot, Cursor, Replit, Codeium, etc.) representing a fast-emerging sub-segment estimated at $2-5 billion. Broader adjacent markets include global software development spend (~$1.5 trillion) and IT services (~$1.4 trillion), which represent the addressable pool this technology could disrupt or augment.",
+    "growth_rate": "AI coding tools/copilots segment growing at an estimated 25-40% CAGR through 2030. Enterprise adoption of AI-assisted development has grown rapidly since 2022 (ChatGPT/Copilot era), with surveys indicating 70-90% of developers now use some form of AI coding assistant. Investment in 'AI software engineer' / autonomous coding agent startups (e.g., Devin, Cognition, Magic.dev) has surged, with funding rounds increasing 3-5x year-over-year since 2023.",
+    "maturity": "Early-to-growth stage. Autocomplete/copilot tools (code suggestion, chat-based assistance) are relatively mature and widely adopted. Fully autonomous 'AI software engineer' agents capable of end-to-end task completion (planning, coding, testing, debugging without human intervention) are nascent/emerging, with most solutions still requiring significant human oversight. Market is characterized by rapid iteration, unproven long-term reliability, and evolving enterprise trust.",
+    "opportunities": [
+        "Autonomous coding agents for well-defined, repetitive tasks (bug fixes, test writing, boilerplate generation, migrations)",
+        "AI-augmented developer productivity tools targeting mid-market and SMB engineering teams underserved by enterprise-focused incumbents",
+        "Vertical-specific AI coding assistants (fintech compliance code, embedded systems, legacy COBOL/mainframe modernization)",
+        "AI-driven code review, security auditing, and technical debt remediation as standalone offerings",
+        "Tools that orchestrate multi-agent workflows for full software lifecycle (spec-to-deploy) rather than single-function assistants",
+        "Training/upskilling and certification services helping engineers transition into 'AI orchestration' and prompt-engineering-heavy roles",
+        "Infrastructure/tooling for evaluating, benchmarking, and ensuring reliability of AI-generated code (testing frameworks, observability)",
+        "M&A and consolidation opportunities as incumbents (Microsoft, Google, Amazon) acquire or out-compete point-solution startups",
+        "Emerging markets and regions with developer shortages where AI-assisted development lowers the barrier to software creation"
+    ]
+}
