@@ -24,6 +24,10 @@ from atlas.departments.research.employees.competitor_analyst import (
     CompetitorAnalyst,
 )
 
+from atlas.departments.research.employees.seo_analyst import (
+    SEOAnalyst,
+)
+
 
 class ResearchDepartment:
     def execute(
@@ -60,6 +64,12 @@ class ResearchDepartment:
 
         if "Competitor Analysis" in plan.tasks:
             CompetitorAnalyst().execute(
+                workspace_id=workspace_id,
+                title=title,
+            )
+
+        if "SEO Analysis" in plan.tasks:
+            SEOAnalyst().execute(
                 workspace_id=workspace_id,
                 title=title,
             )

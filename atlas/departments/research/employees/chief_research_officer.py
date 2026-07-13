@@ -1,16 +1,20 @@
 """
 Chief Research Officer
-
-Plans research activities for the department.
 """
 
 from atlas.core.logger import Logger
 
-from atlas.departments.research.models.research_plan import ResearchPlan
+from atlas.departments.research.models.research_plan import (
+    ResearchPlan,
+)
 
 
 class ChiefResearchOfficer:
-    def create_plan(self, workspace_id, title):
+    def create_plan(
+        self,
+        workspace_id,
+        title,
+    ):
         Logger.info("Chief Research Officer creating research plan")
 
         return ResearchPlan(
