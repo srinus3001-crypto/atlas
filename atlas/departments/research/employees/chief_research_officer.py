@@ -21,6 +21,6 @@ class ChiefResearchOfficer:
                 "Trend Analysis",
                 "Audience Analysis",
                 "Competitor Analysis",
-                "Risk Analysis",
+                "SEO Analysis",
             ],
         )

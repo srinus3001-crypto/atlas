@@ -1,18 +1,18 @@
 {
     "workspace_id": "P001",
-    "market_size": "The global AI code tools / AI software development market (including AI-assisted coding, code generation, and automated software engineering tools) is estimated at approximately $6-8 billion in 2024, within the broader AI software market valued at over $200 billion. The addressable market includes the global software development spend, estimated at $500-600 billion annually, as AI tools increasingly target replacing or augmenting engineering labor rather than just assisting it.",
-    "growth_rate": "Estimated CAGR of 25-35% through 2030 for AI coding/development tools, significantly outpacing general software market growth (~5-8%). Growth is being accelerated by rapid advances in large language models (LLMs), agentic AI systems, and enterprise adoption of AI-driven development pipelines.",
-    "maturity": "Early-to-growth stage. AI coding assistants (e.g., Copilot-style tools) have reached early mainstream adoption, but fully autonomous 'AI software engineer' products (capable of end-to-end feature development, debugging, and deployment without human oversight) are still emerging and largely experimental/pilot-stage as of 2024-2025. The market is fragmented, with rapid iteration cycles, unproven long-term reliability at scale, and evolving trust/verification standards.",
+    "market_size": "The global AI-assisted software development / code generation tools market was valued at approximately USD 6-7 billion in 2024, within the broader AI in software development market estimated at USD 20+ billion when including DevOps, testing, and IT automation tools.",
+    "growth_rate": "Estimated CAGR of 25-30% through 2030, driven by rapid adoption of AI coding assistants (e.g., GitHub Copilot, Cursor, Replit, Devin-style autonomous agents) and enterprise investment in developer productivity tools.",
+    "maturity": "Early growth stage - the underlying LLM technology is maturing quickly, but 'full replacement' autonomous coding agents are still emerging/experimental; augmentation tools (copilots) are more mature and widely adopted than fully autonomous engineering replacements.",
     "opportunities": [
-        "Autonomous coding agents capable of end-to-end task completion (spec to deployment) for narrow, well-defined domains (e.g., CRUD apps, API integrations, test writing)",
-        "AI-driven QA, code review, and security auditing tools that reduce need for human reviewers",
-        "Vertical-specific AI engineering tools (e.g., for fintech, healthcare, embedded systems) with domain-tuned reliability",
-        "Enterprise-grade 'AI engineering team' platforms that orchestrate multiple agents for larger, multi-step projects",
-        "Tools for legacy code modernization and technical debt reduction using AI comprehension of large codebases",
-        "AI-augmented low-code/no-code platforms that shift value from engineers to business users",
-        "Trust, verification, and monitoring layers (AI observability for AI-generated code) as a new market category",
-        "Talent transition services/platforms helping engineers reskill into AI-oversight, prompt engineering, or AI-system design roles",
-        "Cost-arbitrage opportunities for startups building lean engineering teams augmented heavily by AI, reducing headcount needs by 30-70%",
-        "Consulting and implementation services for enterprises seeking to integrate AI engineering agents into existing SDLC and DevOps pipelines"
+        "Autonomous AI agents that can independently scope, code, test, and deploy full features with minimal human oversight",
+        "Vertical-specific AI coding tools tailored to industries with strict compliance needs (finance, healthcare, government)",
+        "AI-driven QA, debugging, and code review platforms that reduce reliance on human reviewers",
+        "Tools for legacy code migration and modernization using AI (COBOL to modern stacks, monolith to microservices)",
+        "AI project management layers that translate business requirements directly into working software",
+        "Training and upskilling platforms to help engineers transition into AI-oversight and prompt-engineering roles",
+        "Security and vulnerability scanning tools specifically designed for AI-generated code",
+        "Usage-based or outcome-based pricing models for AI development services targeting startups and SMBs lacking engineering teams",
+        "Multi-agent orchestration platforms enabling teams of specialized AI agents to collaborate on complex software projects",
+        "Enterprise integration platforms that connect AI coding agents with existing CI/CD, ticketing, and version control systems"
     ]
 }

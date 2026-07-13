@@ -20,6 +20,10 @@ from atlas.departments.research.employees.audience_analyst import (
     AudienceAnalyst,
 )
 
+from atlas.departments.research.employees.competitor_analyst import (
+    CompetitorAnalyst,
+)
+
 
 class ResearchDepartment:
     def execute(
@@ -50,6 +54,12 @@ class ResearchDepartment:
 
         if "Audience Analysis" in plan.tasks:
             AudienceAnalyst().execute(
+                workspace_id=workspace_id,
+                title=title,
+            )
+
+        if "Competitor Analysis" in plan.tasks:
+            CompetitorAnalyst().execute(
                 workspace_id=workspace_id,
                 title=title,
             )

@@ -24,6 +24,10 @@ class EnterpriseEmployee:
 
             Logger.info(f"{self.__class__.__name__} AI response received")
 
+            print("\n========== RAW AI RESPONSE ==========\n")
+            print(response.content)
+            print("\n=====================================\n")
+
             data = JSONParser.extract(response.content)
 
             report = self.build_report(data, **kwargs)
