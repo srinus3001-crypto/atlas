@@ -28,6 +28,10 @@ from atlas.departments.research.employees.seo_analyst import (
     SEOAnalyst,
 )
 
+from atlas.departments.research.employees.risk_analyst import (
+    RiskAnalyst,
+)
+
 
 class ResearchDepartment:
     def execute(
@@ -70,6 +74,12 @@ class ResearchDepartment:
 
         if "SEO Analysis" in plan.tasks:
             SEOAnalyst().execute(
+                workspace_id=workspace_id,
+                title=title,
+            )
+
+        if "Risk Analysis" in plan.tasks:
+            RiskAnalyst().execute(
                 workspace_id=workspace_id,
                 title=title,
             )

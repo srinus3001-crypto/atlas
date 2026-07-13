@@ -1,41 +1,50 @@
 {
     "workspace_id": "P001",
     "trending_topics": [
-        "Agentic AI coding tools (Devin, Cursor, Claude Code, GitHub Copilot Workspace) claiming to autonomously write/debug/deploy code",
-        "Debate over shrinking junior developer job market due to AI-assisted senior productivity",
-        "'Vibe coding' trend - building apps via natural language prompts with minimal manual coding",
-        "Tech company layoffs partially attributed to AI efficiency gains in engineering teams",
-        "Rise of AI-native startups building products with 1-2 person 'AI-augmented' teams",
-        "Increased enterprise adoption of AI pair-programming tools reducing time-to-ship",
-        "Backlash/skepticism narrative: 'AI hype vs reality' in software engineering capability",
-        "Growing discussion on AI models achieving competitive coding benchmark scores (SWE-bench, LiveCodeBench)"
+        "AI coding assistants (GitHub Copilot, Cursor, Claude Code) replacing junior dev tasks",
+        "Debate: 'AI won't replace engineers, but engineers using AI will replace those who don't'",
+        "Layoffs at tech companies attributed partly to AI productivity gains",
+        "Rise of 'AI-native' engineers who orchestrate multiple AI agents instead of writing code manually",
+        "Agentic coding tools (Devin, SWE-agent, OpenAI Codex-based agents) attempting full feature builds",
+        "Shift in entry-level hiring — fewer junior dev roles as AI handles boilerplate/scaffolding",
+        "Vibe coding' trend — non-engineers building functional apps via AI prompting",
+        "Enterprise adoption of AI pair-programming as standard workflow, not novelty",
+        "Discussion on AI hallucination/security risks in AI-generated code at scale",
+        "Comparison of AI capability vs. human judgment in system design and architecture",
+        "Recruiters and CTOs commenting on changing skill requirements (prompt engineering, AI oversight)",
+        "Academic/bootcamp curriculum changes to include AI-assisted development skills"
     ],
     "search_trends": [
         "will AI replace software engineers 2025",
-        "best AI coding assistant comparison",
-        "Devin AI engineer review",
-        "junior developer jobs AI impact",
-        "vibe coding meaning",
-        "AI coding tools for beginners",
-        "software engineer career AI proof",
-        "Cursor vs Copilot vs Claude Code"
+        "is coding still worth learning",
+        "AI coding tools comparison (Copilot vs Cursor vs Claude)",
+        "junior developer jobs disappearing AI",
+        "how to become an AI-proof software engineer",
+        "best AI tools for developers",
+        "AI agent that writes entire codebase",
+        "software engineer salary trends AI impact",
+        "learn to code in the age of AI",
+        "AI replacing programmers reddit/hackernews discussion"
     ],
     "viral_opportunities": [
-        "Contrarian hot-take posts: 'AI won't replace engineers, but engineers using AI will replace those who don't'",
-        "Before/after productivity demos: building an app in minutes using AI agents",
-        "Data-driven threads on real job posting trends/layoff numbers vs AI narrative",
-        "Debate-bait content: polling audience 'Will your job exist in 5 years?'",
-        "Personal story format: 'I got replaced by AI' or 'I used AI to save my job' testimonials",
-        "Short-form video comparing AI-generated code vs human-written code quality",
-        "Myth-busting carousel: separating AI coding hype from actual current limitations"
+        "Hot take: 'AI didn't replace engineers, it exposed which ones were replaceable'",
+        "Before/after demo: building a full app feature using only AI agents, timed",
+        "Data-driven post: entry-level dev job postings decline vs AI tool adoption growth",
+        "Contrarian angle: why senior engineers become MORE valuable, not less, in AI era",
+        "Myth-busting thread: what AI coding tools still fail at (security, architecture, edge cases)",
+        "Career pivot story: engineer who upskilled into 'AI orchestrator' role",
+        "Poll/engagement bait: 'Will you have a coding job in 5 years? Yes/No' with reasoning thread",
+        "Case study teardown: company that fully automated a dev workflow with AI agents — cost/time saved",
+        "Reaction content to viral clips of tech CEOs claiming 'AI writes 90% of our code'"
     ],
     "recommended_content": [
-        "Comparative review: Top AI coding assistants in 2025 (features, pricing, real use cases)",
-        "Career guide: How software engineers can upskill to stay relevant with AI tools",
-        "Data analysis piece: Software engineering job market trends correlated with AI tool adoption",
-        "Explainer: What AI coding agents can and cannot do today (technical limitations)",
-        "Case study video: Building a full app end-to-end using only AI tools",
-        "Opinion/analysis article: The future of the software engineering role in an AI-first world",
-        "Interview-style content with engineers who've integrated AI deeply into their workflow"
+        "Explainer video: 'What AI Can and Can't Do in Software Engineering Today'",
+        "LinkedIn/X thread breaking down real productivity data from AI coding tools",
+        "Interview-style content with engineers who've integrated AI into daily workflow",
+        "Skill-map infographic: 'Skills to Future-Proof Your Engineering Career in the AI Era'",
+        "Short-form video: rapid AI-agent demo building a small app live",
+        "Opinion piece: nuanced take avoiding hype/doom extremes, focused on role evolution",
+        "Comparison guide: top AI dev tools 2025 with pros/cons for different engineer levels",
+        "Case study series: companies scaling teams with AI vs. companies cutting teams"
     ]
 }
