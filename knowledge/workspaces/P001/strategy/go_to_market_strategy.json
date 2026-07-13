@@ -1,0 +1,258 @@
+{
+    "workspace_id": "P001",
+    "target_segments": [
+        {
+            "segment": "Early-stage startups (pre-seed to Series A)",
+            "rationale": "Limited engineering budget, need to ship fast, willing to experiment with AI-first dev workflows",
+            "priority": "High"
+        },
+        {
+            "segment": "Solo founders / indie hackers",
+            "rationale": "No engineering team at all, need AI to act as their entire dev function",
+            "priority": "High"
+        },
+        {
+            "segment": "Digital agencies & software consultancies",
+            "rationale": "Margin pressure on client projects, want to multiply output per billable engineer",
+            "priority": "Medium"
+        },
+        {
+            "segment": "Mid-market SaaS companies (50-500 employees)",
+            "rationale": "Have engineering teams but face hiring costs/backlog; want AI to augment or replace contractor spend",
+            "priority": "Medium"
+        },
+        {
+            "segment": "Enterprise engineering orgs (innovation/automation teams)",
+            "rationale": "Exploring AI-driven engineering to cut headcount growth and control costs at scale",
+            "priority": "Low (long sales cycle, high LTV)"
+        }
+    ],
+    "customer_personas": [
+        {
+            "name": "Non-technical Startup Founder (Sam)",
+            "role": "Founder/CEO",
+            "pain_points": [
+                "Can't code but needs an MVP",
+                "Can't afford a CTO or dev team",
+                "Slow freelance dev turnaround"
+            ],
+            "goals": [
+                "Ship product fast",
+                "Avoid equity dilution from technical co-founder",
+                "Control costs"
+            ]
+        },
+        {
+            "name": "Engineering Manager (Priya)",
+            "role": "Head of Engineering at mid-market SaaS",
+            "pain_points": [
+                "Backlog growth outpaces hiring",
+                "High engineer salaries",
+                "Attrition risk"
+            ],
+            "goals": [
+                "Increase team velocity without headcount",
+                "Reduce cost per feature shipped",
+                "Maintain code quality"
+            ]
+        },
+        {
+            "name": "Agency Owner (Marcus)",
+            "role": "Founder of a dev shop",
+            "pain_points": [
+                "Thin margins on fixed-price projects",
+                "Difficulty scaling delivery",
+                "Talent scarcity"
+            ],
+            "goals": [
+                "Increase margin per project",
+                "Take on more clients without hiring",
+                "Faster delivery timelines"
+            ]
+        },
+        {
+            "name": "Innovation Lead (Elena)",
+            "role": "VP of Engineering Innovation at enterprise",
+            "pain_points": [
+                "Pressure to cut engineering OPEX",
+                "Slow legacy dev processes",
+                "Risk-averse culture"
+            ],
+            "goals": [
+                "Pilot AI transformation initiatives",
+                "Demonstrate ROI to CFO/board",
+                "Future-proof engineering org"
+            ]
+        }
+    ],
+    "acquisition_channels": [
+        {
+            "channel": "Product-led growth (free tier / free trial)",
+            "tactic": "Let developers and founders experience AI building real features before paying"
+        },
+        {
+            "channel": "Developer communities",
+            "tactic": "Presence in Hacker News, Indie Hackers, Reddit r/programming, dev Discords/Slack groups"
+        },
+        {
+            "channel": "Content & SEO",
+            "tactic": "Rank for 'AI software engineer', 'replace developers with AI', 'AI coding agent' keywords"
+        },
+        {
+            "channel": "YouTube/build-in-public demos",
+            "tactic": "Show AI building full apps live, time-lapse videos, before/after comparisons"
+        },
+        {
+            "channel": "Twitter/X and LinkedIn thought leadership",
+            "tactic": "Founder-led narrative on future of engineering, viral demo threads"
+        },
+        {
+            "channel": "Paid acquisition",
+            "tactic": "Targeted ads to startup founders and eng leaders on LinkedIn, Twitter, Google search"
+        },
+        {
+            "channel": "Referral program",
+            "tactic": "Incentivize existing users to invite teams/founders with credits or discounts"
+        }
+    ],
+    "marketing_channels": [
+        "Product demo videos and viral build challenges",
+        "Case studies quantifying cost/time savings vs hiring engineers",
+        "Webinars/live coding sessions with AI",
+        "Newsletter targeting founders and CTOs",
+        "Podcast sponsorships (indie hacker & startup podcasts)",
+        "Comparison content vs Copilot, Devin, human dev cost calculators",
+        "Community-driven Slack/Discord for users to share builds"
+    ],
+    "sales_strategy": [
+        {
+            "motion": "Self-serve PLG",
+            "applies_to": "Startups, indie hackers",
+            "approach": "Frictionless signup, in-product upgrade prompts, usage-based pricing triggers"
+        },
+        {
+            "motion": "Inside sales / sales-assisted",
+            "applies_to": "Mid-market SaaS, agencies",
+            "approach": "Demo calls, ROI calculators, pilot programs with success metrics"
+        },
+        {
+            "motion": "Enterprise sales",
+            "applies_to": "Enterprise engineering orgs",
+            "approach": "Dedicated AE + SE team, security/compliance review, pilot-to-scale contracts, executive sponsorship"
+        },
+        {
+            "motion": "Land and expand",
+            "applies_to": "All segments",
+            "approach": "Start with single project/team, expand seats and usage after proven ROI"
+        }
+    ],
+    "launch_strategy": [
+        {
+            "phase": "Private beta",
+            "actions": [
+                "Recruit 50-100 design partners from target personas",
+                "Gather feedback, refine core AI agent capability",
+                "Build case studies"
+            ]
+        },
+        {
+            "phase": "Public launch",
+            "actions": [
+                "Launch on Product Hunt, Hacker News",
+                "Coordinated founder Twitter/X thread with demo video",
+                "Press outreach to tech media (TechCrunch, The Information)"
+            ]
+        },
+        {
+            "phase": "Growth phase",
+            "actions": [
+                "Scale paid acquisition",
+                "Expand content/SEO engine",
+                "Launch referral program",
+                "Introduce team/enterprise tiers"
+            ]
+        },
+        {
+            "phase": "Enterprise expansion",
+            "actions": [
+                "Build enterprise-grade security & compliance",
+                "Hire enterprise sales team",
+                "Target Fortune 1000 innovation teams"
+            ]
+        }
+    ],
+    "partnerships": [
+        {
+            "partner_type": "Cloud providers (AWS, Azure, GCP)",
+            "value": "Co-marketing, marketplace listing, credits for startups"
+        },
+        {
+            "partner_type": "No-code/low-code platforms",
+            "value": "Integration partnerships to extend AI coding into broader app-building ecosystem"
+        },
+        {
+            "partner_type": "Startup accelerators (YC, Techstars)",
+            "value": "Access to cohorts of founders needing technical execution"
+        },
+        {
+            "partner_type": "Dev tool ecosystem (GitHub, GitLab, Vercel)",
+            "value": "Native integrations to embed in existing developer workflows"
+        },
+        {
+            "partner_type": "Consultancies/agencies",
+            "value": "White-label or reseller partnerships to augment their delivery capacity"
+        }
+    ],
+    "growth_loops": [
+        {
+            "loop": "Build-in-public virality",
+            "mechanism": "Users share AI-built apps/features publicly, driving curiosity and signups"
+        },
+        {
+            "loop": "Referral/credit loop",
+            "mechanism": "Users invite teammates or other founders to earn free usage credits"
+        },
+        {
+            "loop": "Content flywheel",
+            "mechanism": "Case studies and demos generate SEO traffic, converting into new users who generate more case studies"
+        },
+        {
+            "loop": "Marketplace/template loop",
+            "mechanism": "Users publish AI-generated app templates/components, attracting new users who reuse and remix them"
+        }
+    ],
+    "key_metrics": [
+        "Activation rate (first successful AI-built feature/app)",
+        "Time-to-first-value (TTFV)",
+        "Weekly/Monthly active builders",
+        "Conversion rate free-to-paid",
+        "Net revenue retention (NRR)",
+        "Cost savings demonstrated per customer (vs. hiring equivalent)",
+        "Enterprise pipeline velocity",
+        "Referral-driven signup %",
+        "Churn rate by segment"
+    ],
+    "expansion_strategy": [
+        {
+            "stage": "Horizontal expansion",
+            "action": "Move from single-feature AI coding to full-stack app generation, then to maintenance/ops (AI DevOps)"
+        },
+        {
+            "stage": "Vertical expansion",
+            "action": "Build specialized AI agents for verticals (fintech, healthcare, e-commerce) with compliance templates"
+        },
+        {
+            "stage": "Geographic expansion",
+            "action": "Localize for high-growth developer markets (India, Southeast Asia, LATAM) with pricing tiers"
+        },
+        {
+            "stage": "Platform expansion",
+            "action": "Open API/SDK for other platforms to embed AI engineering capability"
+        },
+        {
+            "stage": "Enterprise deepening",
+            "action": "Expand from pilot teams to org-wide deployment with dedicated success and security teams"
+        }
+    ],
+    "summary": "The GTM strategy positions the AI Software Engineer product as a category-defining tool that lets non-technical founders build products and lets engineering teams multiply their output without proportional headcount growth. Initial focus is a product-led growth motion targeting startups and indie hackers, using viral demos and build-in-public content to drive awareness and adoption. As the product matures, GTM expands into sales-assisted motions for agencies and mid-market SaaS companies, and finally into full enterprise sales for large engineering organizations seeking to control OPEX. Growth is compounded through referral loops, content flywheels, and marketplace-style sharing of AI-built apps, while strategic partnerships with cloud providers, accelerators, and dev tool ecosystems accelerate distribution. Success is measured through activation, cost-savings proof points, and net revenue retention, with expansion into verticalized and international markets over time."
+}

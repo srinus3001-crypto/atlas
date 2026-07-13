@@ -8,7 +8,7 @@ class AISettings:
 
     MODEL = "claude-sonnet-5"
 
-    MAX_TOKENS = 4000
+    MAX_TOKENS = 6000
 
     TEMPERATURE = 0.3
 

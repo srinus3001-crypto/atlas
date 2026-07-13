@@ -1,0 +1,270 @@
+{
+    "workspace_id": "P001",
+    "target_platforms": [
+        {
+            "platform": "LinkedIn",
+            "role": "Primary B2B/thought-leadership channel reaching engineering managers, CTOs, and senior engineers",
+            "priority": "Tier 1"
+        },
+        {
+            "platform": "X/Twitter",
+            "role": "Real-time debate, virality, journalist/analyst engagement, and rapid-response commentary on product launches",
+            "priority": "Tier 1"
+        },
+        {
+            "platform": "YouTube",
+            "role": "Long-form benchmark demonstrations, interviews, and explainer content; secondary SEO surface",
+            "priority": "Tier 1"
+        },
+        {
+            "platform": "Reddit (r/programming, r/cscareerquestions, r/ExperiencedDevs)",
+            "role": "Value-first community participation to earn trust, traffic, and organic citations among skeptical engineers",
+            "priority": "Tier 2"
+        },
+        {
+            "platform": "Hacker News",
+            "role": "Organic submission and technical credibility-building among senior engineers and founders",
+            "priority": "Tier 2"
+        },
+        {
+            "platform": "Newsletter/Substack (owned + cross-promotion)",
+            "role": "Primary owned-audience asset; reduces platform dependency risk; anchor for retention and conversion",
+            "priority": "Tier 1"
+        },
+        {
+            "platform": "TikTok / YouTube Shorts",
+            "role": "Short-form debate-style and data-snippet virality to capture younger/junior developer and CS student audience",
+            "priority": "Tier 3 (experimental)"
+        },
+        {
+            "platform": "Podcast platforms (Spotify, Apple Podcasts)",
+            "role": "Distribution for interview series and practitioner voices; supports E-E-A-T and backlink generation",
+            "priority": "Tier 3"
+        }
+    ],
+    "content_mix": [
+        {
+            "category": "Data & Benchmarks",
+            "share": "25%",
+            "formats": [
+                "Charts/data visualizations",
+                "carousel breakdowns",
+                "benchmark tracker updates",
+                "Twitter/X threads"
+            ]
+        },
+        {
+            "category": "Tools & Technology Analysis",
+            "share": "20%",
+            "formats": [
+                "Comparison videos",
+                "tool review threads",
+                "case study posts",
+                "LinkedIn carousels"
+            ]
+        },
+        {
+            "category": "Career Intelligence & Guidance",
+            "share": "20%",
+            "formats": [
+                "Skills roadmaps",
+                "career guide carousels",
+                "lead-magnet promotion posts",
+                "Q&A threads"
+            ]
+        },
+        {
+            "category": "Future of Tech Careers & Industry Trends",
+            "share": "15%",
+            "formats": [
+                "Opinion/analysis posts",
+                "myth-busting threads",
+                "poll-driven debate posts"
+            ]
+        },
+        {
+            "category": "Voices from the Field",
+            "share": "10%",
+            "formats": [
+                "Interview clips",
+                "practitioner quote graphics",
+                "roundtable video excerpts"
+            ]
+        },
+        {
+            "category": "Flagship Research & Thought Leadership",
+            "share": "10%",
+            "formats": [
+                "Report teasers",
+                "methodology explainers",
+                "PR/citation amplification posts"
+            ]
+        }
+    ],
+    "posting_schedule": [
+        {
+            "platform": "LinkedIn",
+            "frequency": "1x/day (5-7x/week)",
+            "best_content": "Long-form analysis, data carousels, debate questions, report announcements"
+        },
+        {
+            "platform": "X/Twitter",
+            "frequency": "2-3x/day + real-time reactive threads",
+            "best_content": "Data snippets, hot-take rebuttals, threads, journalist engagement"
+        },
+        {
+            "platform": "YouTube",
+            "frequency": "1-4x/month scaling to weekly by month 7+",
+            "best_content": "Benchmark demos, interviews, explainer long-form"
+        },
+        {
+            "platform": "YouTube Shorts / TikTok",
+            "frequency": "3-5x/week (from Month 4 onward)",
+            "best_content": "Debate clips, quick data stats, myth-busting snippets"
+        },
+        {
+            "platform": "Reddit",
+            "frequency": "2-3x/week (value-first participation, not just posting)",
+            "best_content": "Original data posts, AMAs, authentic thread replies"
+        },
+        {
+            "platform": "Hacker News",
+            "frequency": "1-2x/week (submission of flagship/original content only)",
+            "best_content": "Benchmark releases, methodology posts, major report launches"
+        },
+        {
+            "platform": "Newsletter",
+            "frequency": "1x/week (Months 1-6), 2x/week (Months 7-12)",
+            "best_content": "Curated analysis, exclusive commentary, subscriber-only data previews"
+        },
+        {
+            "platform": "Podcast",
+            "frequency": "Bi-weekly to monthly",
+            "best_content": "Interview series with practicing engineers and industry leaders"
+        }
+    ],
+    "campaign_ideas": [
+        {
+            "name": "State of AI in Software Engineering (Flagship Launch Campaign)",
+            "description": "Coordinated cross-platform launch of the quarterly flagship report featuring teaser data drops on X/LinkedIn, a YouTube methodology explainer, Reddit/HN submissions, PR/journalist outreach, and a live webinar Q&A.",
+            "platforms": [
+                "LinkedIn",
+                "X/Twitter",
+                "YouTube",
+                "Hacker News",
+                "Newsletter"
+            ]
+        },
+        {
+            "name": "#AIorHype Debate Series",
+            "description": "Recurring short-form video and thread series posing a weekly provocative question (e.g., 'Did AI just write better code than a senior engineer?') paired with data evidence, driving engagement and shareability.",
+            "platforms": [
+                "X/Twitter",
+                "YouTube Shorts",
+                "TikTok",
+                "LinkedIn"
+            ]
+        },
+        {
+            "name": "Benchmark Tracker Live Updates",
+            "description": "Ongoing 'always-on' campaign publishing bite-sized updates from the AI vs Human Developer Benchmark Tracker as embeddable, citable social graphics to build recurring engagement and backlink potential.",
+            "platforms": [
+                "X/Twitter",
+                "LinkedIn",
+                "Newsletter"
+            ]
+        },
+        {
+            "name": "Voices from the Field: Engineer Takeover",
+            "description": "Monthly practitioner interview/takeover series where a real engineer shares AI-workflow experience via video, quote graphics, and a live Reddit/LinkedIn AMA to humanize data-driven content.",
+            "platforms": [
+                "YouTube",
+                "LinkedIn",
+                "Reddit",
+                "Podcast"
+            ]
+        },
+        {
+            "name": "Myth-Busting Monday",
+            "description": "Weekly recurring content franchise debunking a viral AI-replaces-engineers claim with data, designed for high shareability and search/social virality capture.",
+            "platforms": [
+                "X/Twitter",
+                "LinkedIn",
+                "YouTube Shorts"
+            ]
+        },
+        {
+            "name": "Career Resilience Challenge",
+            "description": "Lead-generation campaign promoting the downloadable Skills Roadmap/Career Resilience guide through a multi-platform 'assess your AI-readiness' interactive quiz or checklist.",
+            "platforms": [
+                "LinkedIn",
+                "Newsletter",
+                "X/Twitter",
+                "TikTok"
+            ]
+        },
+        {
+            "name": "Enterprise Insight Series",
+            "description": "LinkedIn-focused thought-leadership campaign targeting CTOs/engineering leaders with executive-level data takes, timed to enterprise research subscription launch.",
+            "platforms": [
+                "LinkedIn"
+            ]
+        },
+        {
+            "name": "Reactive Rapid Response Desk",
+            "description": "Always-on capability to publish same-day data-backed reaction content (threads, short videos) whenever a major AI coding product launch or layoff headline breaks, capturing real-time search/social spikes.",
+            "platforms": [
+                "X/Twitter",
+                "LinkedIn",
+                "YouTube Shorts"
+            ]
+        }
+    ],
+    "engagement_strategy": [
+        "Lead every platform conversation with proprietary data points and citable statistics rather than opinion, reinforcing the 'Data Over Drama' pillar",
+        "Run recurring polls and debate-style prompts on LinkedIn/X tied to published benchmark data to drive comments and shares",
+        "Respond personally and substantively to comments/DMs within 24 hours, especially from engineers expressing career anxiety, to build empathetic trust",
+        "Participate in Reddit/Hacker News threads with value-first, non-promotional replies before ever linking to owned content",
+        "Host live Q&A/webinar sessions around each quarterly flagship report launch and each major AI tool release",
+        "Feature audience-submitted questions and sentiment in newsletter and interview content to create a participatory feedback loop",
+        "Create quotable, citation-ready data snippets and infographics specifically designed for easy resharing by journalists and influencers",
+        "Use platform-native formats (LinkedIn documents/carousels, X threads, Reddit text posts, YouTube community tab) rather than cross-posting identical content",
+        "Encourage engineer 'follow the data' challenges—inviting the community to flag data points or suggest new benchmark tests, feeding it back into the tracker",
+        "Maintain consistent, transparent disclosure of any vendor/affiliate relationships directly within relevant posts to protect the trust moat"
+    ],
+    "influencer_strategy": [
+        "Prioritize collaboration with practicing senior engineers and engineering managers (micro-influencers, 5K-100K followers) over mega-influencers, to reinforce authenticity and E-E-A-T",
+        "Co-create benchmark or workflow-change content with respected developer YouTubers/newsletter authors via joint videos or cross-posted analysis rather than paid endorsements",
+        "Invite recognized skeptic and optimist voices in the AI-coding debate as guest contributors or interview subjects to reinforce editorial balance and attract both audience segments",
+        "Partner with CS educators, bootcamp instructors, and career coaches to co-distribute the Career Resilience/Skills Roadmap lead magnets",
+        "Engage tech journalists and analysts as 'influencer-adjacent' relationships—prioritizing citation and data-sourcing relationships over sponsorship",
+        "Avoid paid partnerships with AI coding tool vendors' influencer networks to protect editorial independence; when tool creators are featured, clearly disclose and maintain critical distance",
+        "Launch a 'Community Voices' ambassador program inviting engaged newsletter/community members to co-author interview features, turning superfans into organic amplifiers",
+        "Diversify influencer relationships across at least 3-5 independent voices per campaign to avoid over-reliance on any single personality or perceived bias"
+    ],
+    "community_strategy": [
+        "Build the newsletter as the central owned-audience hub, using it to route engaged readers toward a dedicated community/membership tier by Month 10-12",
+        "Establish a moderated Discord or Circle-based community space for paying members offering exclusive data previews, AMAs, and peer discussion",
+        "Maintain active, authentic (non-broadcast) presence in existing developer communities (Reddit, Hacker News, relevant Discord/Slack groups) rather than attempting to redirect them to owned spaces prematurely",
+        "Create a structured feedback channel (survey, comment thread, or community forum) allowing engineers to submit real-world AI workflow experiences that feed the Voices from the Field content pillar",
+        "Recognize and spotlight active community members/interview participants publicly to build loyalty, status incentives, and word-of-mouth referral",
+        "Host quarterly live community events (webinars/AMAs) synced to flagship report releases to drive concentrated engagement spikes and retention",
+        "Implement a clear community code of conduct emphasizing evidence-based discussion and discouraging hype/fear-driven rhetoric, mirroring brand guidelines",
+        "Use community sentiment and questions as direct input into the benchmark tracker and future editorial calendar, closing the loop between audience and product"
+    ],
+    "kpis": [
+        "Follower/subscriber growth rate by platform (target: newsletter to 50,000+ by Month 12)",
+        "Engagement rate (likes, comments, shares, saves) per post by platform, benchmarked against category competitors",
+        "Share of voice/sentiment in the AI-replaces-engineers discourse versus named competitors (tool vendor blogs, tech journalists, LinkedIn influencers)",
+        "Video watch time and completion rate on YouTube/Shorts/TikTok",
+        "Click-through rate from social posts to owned content (website, lead magnets, report landing pages)",
+        "Backlinks, citations, and PR pickups generated from social amplification of flagship report and benchmark data",
+        "Community/membership conversion rate driven from social channels",
+        "Reddit/Hacker News post upvotes, comment engagement, and referral traffic without promotional flags/removals",
+        "Newsletter signup conversion rate attributed to social channel traffic",
+        "Time-to-publish and engagement velocity for reactive content tied to major AI product launches or industry news",
+        "Influencer/practitioner collaboration reach and resulting engagement/backlink lift",
+        "Enterprise/sponsorship inquiry volume attributable to LinkedIn thought-leadership content"
+    ],
+    "summary": "This social media strategy operationalizes the brand's positioning as the independent, data-driven authority on AI's impact on software engineering by deploying a platform-diversified, trust-first distribution model. LinkedIn, X/Twitter, YouTube, and an owned newsletter serve as Tier 1 channels for thought leadership, real-time debate, and audience ownership, while Reddit, Hacker News, and podcasts provide credibility-building, value-first engagement within skeptical developer communities; short-form video (TikTok/Shorts) is layered in as an experimental virality lever from Month 4 onward. Content mix mirrors the six core editorial pillars—Data & Benchmarks, Tools & Technology Analysis, Career Intelligence, Future of Tech Careers, Voices from the Field, and Flagship Research—with cadence scaling from foundational (Months 1-3) to daily, multi-format publishing by Month 10-12. Signature campaigns—including the flagship 'State of AI in Software Engineering' launch, recurring 'Myth-Busting Monday' and '#AIorHype Debate' series, and a Reactive Rapid Response Desk—are designed to capture both sustained search/social demand and real-time virality around product launches and industry news. Engagement, influencer, and community strategies deliberately favor practitioner authenticity and editorial independence over paid vendor endorsements, reinforcing the brand's core differentiator: proprietary, trustworthy data in a market saturated with hype and hot takes. Success is measured through a blended KPI framework spanning audience growth, engagement quality, share-of-voice, citation/backlink generation, and downstream conversion into newsletter subscribers, community members, and enterprise leads—ensuring social distribution directly compounds the platform's long-term competitive moat."
+}

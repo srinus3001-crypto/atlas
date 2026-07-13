@@ -1,0 +1,77 @@
+{
+    "workspace_id": "P001",
+    "pricing_model": "Hybrid: Tiered SaaS subscription + usage-based consumption (AI compute/task credits), with outcome-based enterprise contracts tied to engineering cost displacement.",
+    "pricing_tiers": [
+        {
+            "name": "Free (Solo Dev)",
+            "price": "$0/month",
+            "target": "Individual developers, students, hobbyists",
+            "limits": "50 AI task-credits/month, 1 project, community support, single-agent access"
+        },
+        {
+            "name": "Pro",
+            "price": "$49/user/month",
+            "target": "Freelancers & small teams shipping production code",
+            "limits": "2,000 task-credits/month, multi-agent orchestration, CI/CD integration, priority queue"
+        },
+        {
+            "name": "Team",
+            "price": "$199/user/month (min 5 seats)",
+            "target": "Startups and mid-size engineering teams",
+            "limits": "10,000 pooled task-credits/month, shared agent memory, code review automation, SSO, analytics dashboard"
+        },
+        {
+            "name": "Enterprise",
+            "price": "Custom (starting ~$50K/year)",
+            "target": "Large enterprises replacing/augmenting engineering headcount",
+            "limits": "Unlimited task-credits (with fair-use), dedicated fine-tuned agents, on-prem/VPC deployment, custom SLAs, security & compliance package"
+        }
+    ],
+    "freemium_features": [
+        "Basic AI code generation and debugging",
+        "Single repository integration",
+        "Community forum support",
+        "Limited task-credits per month",
+        "Public template library access"
+    ],
+    "premium_features": [
+        "Multi-agent parallel task execution (full feature builds, not just snippets)",
+        "Autonomous PR creation, testing, and deployment",
+        "Advanced code review & security scanning agents",
+        "Custom agent fine-tuning on private codebase",
+        "Priority compute allocation and faster turnaround",
+        "Team-wide shared context/memory across projects"
+    ],
+    "enterprise_offerings": [
+        "Dedicated on-prem/VPC deployment for data sovereignty",
+        "Custom-trained agents on proprietary architecture & standards",
+        "Guaranteed SLAs (uptime, task turnaround, human-escalation path)",
+        "Dedicated customer success + solutions engineering team",
+        "Outcome-based pricing option (pay per feature shipped / bug resolved)",
+        "Compliance certifications (SOC2, HIPAA, FedRAMP-ready)",
+        "Integration with internal enterprise dev tools (Jira, ServiceNow, GitHub Enterprise)"
+    ],
+    "discounts": [
+        "20% discount on annual billing",
+        "Startup program: 50% off Team tier for companies <2 years old / pre-Series A",
+        "Education & nonprofit discounts (up to 40%)",
+        "Volume discounts for 50+ seats on Enterprise",
+        "Migration incentive: 3 months free when switching from competitor AI dev tools"
+    ],
+    "upsell_strategy": [
+        "Free-to-Pro: task-credit ceiling triggers upgrade prompt with usage analytics showing value delivered",
+        "Pro-to-Team: unlock team collaboration, shared memory, and pooled credits as headcount grows",
+        "Team-to-Enterprise: triggered by need for custom fine-tuning, compliance, or exceeding usage thresholds",
+        "Cross-sell add-ons: security scanning module, design-to-code agent, QA/testing agent, DevOps automation agent",
+        "Usage-based overage billing that naturally nudges customers to next tier for better unit economics"
+    ],
+    "annual_plan_benefits": [
+        "20% cost savings vs monthly billing",
+        "Rollover of unused task-credits (up to 20%)",
+        "Locked-in pricing protection against future price increases",
+        "Free onboarding and dedicated implementation support",
+        "Priority access to new agent capabilities and beta features"
+    ],
+    "positioning": "Positioned as a force-multiplier and cost-displacement engine for engineering organizations — priced not as a developer tool add-on, but as a fraction of the cost of a human engineer's fully-loaded salary, making adoption an obvious ROI decision for CTOs and engineering leaders.",
+    "summary": "The pricing strategy blends a low-friction freemium/Pro entry point to drive individual developer adoption and viral growth, with a usage-based cost structure that scales naturally with AI compute consumption. Team and Enterprise tiers monetize the core value proposition — replacing or radically augmenting software engineering labor — through seat-based and outcome-based pricing that is explicitly benchmarked against engineer salary costs, making the ROI narrative central to sales motion. Discounts and startup programs seed bottom-up adoption, while enterprise contracts capture top-down budget reallocated from engineering headcount, ensuring the pricing model scales revenue in direct proportion to the value and cost savings delivered."
+}
