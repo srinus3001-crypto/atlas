@@ -1,18 +1,17 @@
 {
     "workspace_id": "P001",
-    "market_size": "The global AI software market is estimated at approximately $150-200 billion in 2024, with the AI code generation/developer tools subsegment (GitHub Copilot, Cursor, Replit, etc.) estimated at $2-5 billion, projected to become a significant share of the broader $700+ billion global software development market as AI capabilities expand into full engineering task automation.",
-    "growth_rate": "AI coding tools segment growing at 25-40% CAGR (2023-2030), outpacing general AI market growth (~35-37% CAGR) due to rapid enterprise adoption of copilots, agentic coding assistants, and autonomous code generation platforms; broader 'AI replacing knowledge work' market still nascent but accelerating post-2023 with LLM capability jumps.",
-    "maturity": "Early-to-growth stage. AI-assisted coding (copilots, autocomplete) is maturing rapidly and widely adopted; fully autonomous AI software engineering (agents that design, code, test, deploy without human engineers) is still emergent/experimental, with production-grade reliability, trust, and governance unresolved. Market is in a transitional phase between 'augmentation' (mature-ish) and 'autonomous replacement' (nascent).",
+    "market_size": "The global AI software market is estimated at approximately $150-200 billion in 2024, with the AI code generation/developer tools segment specifically estimated at $6-10 billion. The broader software development market that could be disrupted is valued at approximately $500-600 billion globally, including software engineering labor costs, DevOps tools, and enterprise software development spend.",
+    "growth_rate": "The AI code generation/developer tools segment is growing at approximately 25-30% CAGR, faster than the broader AI software market growth rate of 20-25% CAGR. Adoption of AI coding assistants (e.g., GitHub Copilot, Cursor, Replit AI) has grown exponentially since 2021, with enterprise adoption rates increasing 40-50% year-over-year as of 2023-2024.",
+    "maturity": "Emerging/Early Growth stage. AI coding assistants and copilots are in early-to-mid adoption phase (crossing the chasm), widely used for code completion, debugging, and boilerplate generation. However, full autonomous replacement of software engineers for complex system design, architecture decisions, and novel problem-solving remains nascent/experimental. The market is bifurcated: augmentation tools (mature-ish) vs. autonomous coding agents (very early stage, high experimentation).",
     "opportunities": [
-        "Autonomous coding agents for well-defined, repetitive engineering tasks (bug fixes, test writing, refactoring, boilerplate generation)",
-        "AI-native DevOps/CI-CD pipelines that reduce need for manual engineering oversight",
-        "Vertical-specific AI engineering tools (e.g., AI that builds and maintains internal business apps without engineers)",
-        "AI code review, security auditing, and technical debt remediation platforms",
-        "End-to-end 'AI product builder' platforms targeting non-technical founders/SMBs who previously needed to hire engineers",
-        "AI-driven legacy system modernization and migration services",
-        "Hybrid human-AI engineering team augmentation tools that reduce headcount needs rather than fully replace engineers",
-        "Enterprise-grade trust/verification layers (testing, formal verification, compliance) for AI-generated code, unlocking adoption in regulated industries",
-        "Vertical SaaS replacement models where AI agents replace the need for custom engineering teams entirely (e.g., AI building and maintaining e-commerce sites, internal tools)",
-        "Market for AI engineering 'orchestrators' that manage multiple specialized coding agents in complex, large-scale projects"
+        "AI-powered autonomous coding agents that can independently complete multi-step engineering tasks (beyond autocomplete)",
+        "Vertical-specific AI development tools tailored to industries with specialized compliance/security needs (fintech, healthcare, defense)",
+        "AI tools for legacy code modernization and technical debt reduction, a historically underserved market",
+        "AI-driven QA/testing and code review automation to reduce engineering headcount needs",
+        "Low-code/no-code platforms enhanced with AI to enable non-engineers to build software, expanding the addressable market beyond traditional developers",
+        "AI project management and orchestration tools that coordinate multiple AI agents to handle end-to-end software development lifecycles",
+        "Enterprise-focused AI tools with strong governance, auditability, and IP protection features to address adoption barriers",
+        "Consulting/integration services to help enterprises adopt and manage AI coding tools amid workforce transition concerns",
+        "AI tools targeting emerging markets with developer shortages, potentially leapfrogging traditional hiring bottlenecks"
     ]
 }

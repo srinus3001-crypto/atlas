@@ -32,6 +32,10 @@ from atlas.departments.research.employees.risk_analyst import (
     RiskAnalyst,
 )
 
+from atlas.departments.research.research_synthesizer import (
+    ResearchSynthesizer,
+)
+
 
 class ResearchDepartment:
     def execute(
@@ -83,5 +87,11 @@ class ResearchDepartment:
                 workspace_id=workspace_id,
                 title=title,
             )
+
+        Logger.info("Generating Executive Research Summary")
+
+        ResearchSynthesizer().execute(
+            workspace_id=workspace_id,
+        )
 
         Logger.info("Research Department Finished")
