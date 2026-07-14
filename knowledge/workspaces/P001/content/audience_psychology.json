@@ -1,0 +1,89 @@
+{
+  "workspace_id": "P001",
+  "primary_audience": [
+    "Professional software engineers (junior-mid level) fearing job displacement",
+    "Senior/staff engineers assessing career strategy and AI adoption",
+    "CS students and bootcamp grads questioning career viability",
+    "Engineering managers/CTOs evaluating AI tool adoption decisions"
+  ],
+  "secondary_audience": [
+    "Tech journalists and analysts seeking credible data sources",
+    "HR/recruiting professionals tracking hiring market shifts",
+    "Investors and enterprise leaders assessing AI-in-dev-tools market",
+    "AI tool vendors seeking third-party validation or PR"
+  ],
+  "pain_points": [
+    "Constant conflicting hype vs doom messaging with no clear signal",
+    "Uncertainty about which skills to invest in learning next",
+    "Fear of being blindsided by layoffs tied to AI adoption",
+    "Difficulty separating vendor marketing from real capability"
+  ],
+  "dream_outcomes": [
+    "Clear, honest read on real AI impact to plan career confidently",
+    "Actionable guidance on future-proofing skills and roles",
+    "Being ahead of the curve rather than reactive to disruption",
+    "Trusted data source to reference in decisions and discussions"
+  ],
+  "fears": [
+    "Losing job or being made obsolete by AI",
+    "Wasting years learning skills that become irrelevant",
+    "Being lied to by hype-driven vendor or media narratives",
+    "Missing the transition window to adapt/pivot in time"
+  ],
+  "motivations": [
+    "Career security and long-term employability",
+    "Staying informed and intellectually ahead of peers",
+    "Making evidence-based decisions instead of guessing",
+    "Professional identity and validation as a skilled engineer"
+  ],
+  "emotional_triggers": [
+    "Existential anxiety about obsolescence",
+    "Relief from finding calm, balanced analysis amid hype",
+    "Validation that their skills/experience still matter",
+    "Frustration with polarized, clickbait-driven takes"
+  ],
+  "curiosity_triggers": [
+    "Real benchmark data comparing AI vs human coding output",
+    "Behind-the-scenes look at tools like Devin, Cursor, Copilot",
+    "Contrarian or nuanced takes challenging mainstream narrative",
+    "Predictive data on which roles/skills are most at risk"
+  ],
+  "viewing_triggers": [
+    "Headlines invoking direct career threat ('Will AI take your job?')",
+    "Executive statements/predictions sparking debate",
+    "New AI tool launches or capability demos",
+    "Data-backed reports promising definitive answers"
+  ],
+  "sharing_triggers": [
+    "Content that validates their existing stance (fear or optimism)",
+    "Surprising or counter-narrative data points",
+    "Actionable career advice worth bookmarking for peers",
+    "Authoritative reports lending credibility to their opinions"
+  ],
+  "objections": [
+    "Skepticism that any source is truly unbiased in this space",
+    "Distrust due to previous overhyped or inaccurate AI predictions",
+    "Belief that data reports are vendor-funded marketing",
+    "Feeling that guidance is generic and not personalized to their role"
+  ],
+  "content_preferences": [
+    "Data-driven benchmark reports and surveys",
+    "Balanced, evidence-based analysis over hot-takes",
+    "Practical career-guidance and skill-building content",
+    "Case studies and real-world tool comparisons"
+  ],
+  "platform_preferences": [
+    "LinkedIn (professional career discourse)",
+    "Twitter/X (real-time tech debate and virality)",
+    "YouTube (in-depth analysis and explainer content)",
+    "Newsletter/owned email (trusted recurring insights)"
+  ],
+  "recommendations": [
+    "Lead with editorial neutrality as core trust differentiator",
+    "Anchor content strategy around flagship recurring benchmark report",
+    "Prioritize career-guidance angle over pure trend commentary",
+    "Use data visualizations to drive shareability and citations",
+    "Build LinkedIn/Twitter presence for real-time authority signaling"
+  ],
+  "summary": "The audience is a large, anxious developer population caught between hype and doom narratives about AI's impact on their careers. They crave trustworthy, data-backed clarity to guide career decisions, and respond strongly to content that is balanced, evidence-based, and actionable rather than sensationalized. Winning their trust requires editorial neutrality, proprietary data, and consistent authority-building across LinkedIn, Twitter, and owned channels."
+}

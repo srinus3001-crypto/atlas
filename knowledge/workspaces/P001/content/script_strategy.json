@@ -1,0 +1,43 @@
+{
+  "workspace_id": "P001",
+  "youtube_script": "[HOOK - 0:00-0:15]\n\"25 million developers are asking the same terrifying question right now: will AI take my job? Everyone's arguing. Almost nobody has the data. Today, we do.\"\n\n[SETUP - 0:15-1:00]\nIntroduce the debate: tech executives claim AI will replace engineers within years. Developers on Reddit and Twitter push back. Products like Devin, Cursor, and Copilot are real, shipping, improving fast. Who's right?\n\n[DATA SECTION - 1:00-4:00]\nPresent proprietary/aggregated benchmark data comparing AI tool output vs human engineers on real tasks: speed, bug rate, complex vs routine work. Show the AI coding market growing 25-30% CAGR within $150-200B AI software market—this is real, not hype.\n\n[NUANCE - 4:00-6:00]\nBreak down: AI replaces tasks, not jobs (yet). Junior/routine work most exposed. Senior judgment, system design, and cross-team skills remain hard to automate. Executive claims are often marketing, not data.\n\n[ACTIONABLE TAKEAWAY - 6:00-7:00]\nWhat skills to build now: architecture thinking, AI-tool fluency, communication. Tease flagship 'State of AI in Software Engineering' report for deeper data.\n\n[CTA - 7:00-7:30]\n\"Subscribe for weekly data-driven verdicts, not hype. Link to full report in description.\"",
+  "linkedin_post": "25 million developers are asking the same question: will AI replace me?\n\nEveryone has an opinion. Almost nobody has the data.\n\nWe analyzed real productivity benchmarks across Devin, Cursor, and Copilot against actual engineering output. The results aren't what either the hype crowd or the doom crowd expects.\n\nAI is replacing tasks — not jobs. Yet.\n\nJunior/routine coding work is most exposed. System design, architectural judgment, and cross-functional communication remain stubbornly human.\n\nThe executives making bold predictions? Many are selling the tools they're predicting will replace you.\n\nWe don't sell AI coding tools. That's exactly why our analysis is trustworthy.\n\nOur flagship 'State of AI in Software Engineering' report drops soon — proprietary data, zero hype, zero fear-mongering.\n\nWhat's your take: is your role AI-resistant, or AI-exposed? Drop a comment below.",
+  "x_thread": [
+    "25 million developers are asking the same terrifying question right now: will AI replace me? 🧵",
+    "Devin, Cursor, Copilot: three real products, one existential question. But almost nobody debating this has actual data.",
+    "We benchmarked AI coding tools against real engineers on real tasks. The results surprised us.",
+    "AI is currently replacing TASKS, not jobs. Routine/junior work is most exposed. Senior judgment and system design? Still human.",
+    "Tech executives keep making bold 'AI replaces engineers' claims. Notice how many of them sell AI tools?",
+    "The AI coding market is growing 25-30% CAGR inside a $150-200B AI software market. This is real — but the panic narrative is overblown.",
+    "The skill that determines if AI helps or replaces you isn't coding syntax. It's judgment, architecture, and communication.",
+    "We're building the definitive 'State of AI in Software Engineering' report — data-driven, vendor-neutral, no hype.",
+    "Follow for weekly data-backed verdicts on AI vs engineers. No fear-mongering. No hype. Just evidence."
+  ],
+  "newsletter": "Subject: The AI-vs-Engineers Debate Has a Data Problem\n\nHi [Name],\n\n25 million developers are asking the same question: will AI take my job?\n\nThe discourse is loud — tech executives predict mass replacement, developers push back, and products like Devin, Cursor, and Copilot keep shipping real capability gains. But almost none of this debate is grounded in data.\n\nThis week, we dug into the numbers:\n\n- The AI coding tools market is growing 25-30% CAGR within a $150-200B AI software market — this shift is real.\n- Our benchmark comparisons show AI tools excel at routine, well-defined tasks but struggle with complex system design and judgment calls.\n- Many of the loudest 'AI will replace you' predictions come from people selling AI tools. Worth noting.\n\nWhat this means for your career: the engineers most at risk are those doing purely repetitive, boilerplate work. The engineers most protected are those building architecture judgment, AI-tool fluency, and cross-team communication skills.\n\nWe're building the 'State of AI in Software Engineering' — a proprietary, vendor-neutral benchmark report designed to be the definitive reference point in this debate. No hype. No fear-mongering. Just data.\n\nMore soon.\n\n[Your Name/Brand]",
+  "blog_outline": [
+    "H1: Will AI Replace Software Engineers? What the Data Actually Shows",
+    "H2: The State of the Debate — Hype vs Doom vs Reality",
+    "H2: The Market Reality — $150-200B AI Software Market Growing 25-30% CAGR",
+    "H2: Benchmark Data — Devin vs Cursor vs Copilot vs Human Engineers",
+    "H2: What's Actually Being Automated — Tasks, Not Jobs (Yet)",
+    "H2: Why Executive Predictions Are Often Marketing, Not Analysis",
+    "H2: Skills That Remain AI-Resistant — Architecture, Judgment, Communication",
+    "H2: Career Action Plan — What to Do in the Next 12 Months",
+    "H2: Introducing Our Flagship 'State of AI in Software Engineering' Report",
+    "H3: Conclusion — Editorial Neutrality as the Path to Clarity"
+  ],
+  "call_to_action": "Subscribe for weekly, data-driven verdicts on AI vs software engineers — no hype, no fear-mongering. Get early access to our flagship 'State of AI in Software Engineering' report.",
+  "keywords": [
+    "AI replace software engineers",
+    "AI coding tools comparison",
+    "Devin vs Cursor vs Copilot",
+    "future of software engineering jobs",
+    "AI in software engineering report",
+    "developer career AI risk",
+    "AI code generation market",
+    "software engineer skills AI era",
+    "state of AI software engineering",
+    "will AI take coding jobs"
+  ],
+  "summary": "A cross-channel content package positioning the brand as the neutral, data-driven authority on AI's impact on software engineering careers—leveraging proprietary benchmarks, executive fact-checking, and career guidance to build trust with an anxious 25M-developer audience ahead of flagship report and monetization launches."
+}

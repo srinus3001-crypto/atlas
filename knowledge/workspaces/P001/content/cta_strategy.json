@@ -1,0 +1,60 @@
+{
+  "workspace_id": "P001",
+  "primary_ctas": [
+    "Get the free 'State of AI in Software Engineering' report",
+    "Subscribe for weekly data-driven career intelligence",
+    "Download our proprietary AI-displacement benchmark data",
+    "Join 50,000+ developers getting unbiased AI career analysis",
+    "Take the 2-minute AI-risk assessment for your role"
+  ],
+  "secondary_ctas": [
+    "Read the full executive fact-check breakdown",
+    "Compare tools: Devin vs Cursor vs Copilot (data-backed)",
+    "See which engineering skills are AI-resistant",
+    "Explore the career transition playbook",
+    "Access our methodology and data sources"
+  ],
+  "engagement_ctas": [
+    "Vote: Will AI replace your role in 5 years?",
+    "Share your experience with AI coding tools below",
+    "Tag a developer who needs to see this data",
+    "What's your biggest AI-career fear? Comment below",
+    "React with your prediction: hype or reality?"
+  ],
+  "newsletter_ctas": [
+    "Get the weekly AI-engineering intelligence briefing",
+    "Never miss a benchmark update—subscribe free",
+    "Join the newsletter trusted by 25M-developer community",
+    "Early access to flagship report—subscribe now",
+    "Get career-guidance insights before they're public"
+  ],
+  "community_ctas": [
+    "Join our developer community for real-time discussion",
+    "Ask our researchers anything in the community Q&A",
+    "Share your AI-tool benchmark results with peers",
+    "Join the debate: neutral data vs vendor hype",
+    "Connect with 25,000+ engineers navigating this shift"
+  ],
+  "premium_ctas": [
+    "Unlock enterprise research subscription for team insights",
+    "Get personalized career-risk consulting",
+    "Access premium flagship report with raw datasets",
+    "Upgrade for exclusive executive interview transcripts",
+    "Subscribe to enterprise-tier competitive benchmarking"
+  ],
+  "timing": [
+    "Hook stage: engagement CTA (poll/comment) to capture reaction",
+    "Mid-content (data reveal): newsletter CTA to capture trust-building moment",
+    "Post-evidence/credibility peak: primary CTA (report download/subscribe)",
+    "Closing/reframe: community CTA to sustain relationship post-content",
+    "Following flagship report launch: premium CTA for monetization push"
+  ],
+  "recommendations": [
+    "Reconcile GTM persona/channel mismatch before scaling paid promotion of premium CTAs",
+    "Sequence CTAs to prioritize trust (newsletter/community) over monetization (premium) in Months 1-6",
+    "A/B test primary CTA placement immediately after data/proof points, not at content open",
+    "Use engagement CTAs early to boost algorithmic reach before pushing conversion CTAs",
+    "Reserve premium CTAs for post-flagship-report audience segments only"
+  ],
+  "summary": "This CTA strategy sequences trust-building (engagement, newsletter, community) ahead of monetization (premium, enterprise), mirroring the phased 12-month plan. Primary CTAs center on flagship report and subscription growth, reinforcing editorial authority before introducing premium/enterprise offers. Timing aligns with the story architecture's pacing—capturing anxiety-driven engagement early, converting at the credibility peak, and sustaining community relationships through to monetization."
+}

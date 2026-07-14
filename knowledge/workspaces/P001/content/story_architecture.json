@@ -1,0 +1,79 @@
+{
+  "workspace_id": "P001",
+  "opening_scene": [
+    "Cold open: rapid-fire montage of conflicting headlines/tweets — 'AI will replace all coders' vs 'AI can't code' — text-on-screen style, 3-4 seconds each",
+    "Host on camera, direct address: '25 million developers are asking the same terrifying question right now: will AI take my job?'",
+    "Quick reveal of data dashboard/report mockup to signal 'we have receipts, not opinions'",
+    "Pattern interrupt: pause, lean in — 'Everyone's arguing. Almost nobody has the data. Today, we do.'"
+  ],
+  "story_flow": [
+    "Hook: frame the anxiety + promise of data-driven answer (0:00-0:15)",
+    "Setup: establish the debate—exec hype vs developer skepticism vs real shipping products (0:15-1:00)",
+    "Evidence: present benchmark data on AI tools vs human engineers across task types (1:00-4:00)",
+    "Nuance: reframe from 'jobs vs no jobs' to 'tasks being automated, seniority matters' (4:00-6:00)",
+    "Resolution: actionable skill-building takeaways + tease flagship report + CTA (6:00-7:30)"
+  ],
+  "curiosity_loops": [
+    "Open with unanswered question ('will AI take my job?') left dangling until data section",
+    "Tease 'Today, we do [have the data]' without revealing numbers immediately",
+    "Mid-video: 'But here's what nobody's talking about...' before nuance section",
+    "Reference the flagship report early as a bigger payoff coming later",
+    "End data section with a surprising stat, then cut before full interpretation to force continued watching"
+  ],
+  "retention_checkpoints": [
+    "0:15 — reinforce stakes with concrete developer count (25M) to justify continued watching",
+    "1:00 — visual proof (chart/dashboard) to reward attention with credibility signal",
+    "4:00 — reframe twist ('tasks not jobs') to re-engage viewers considering drop-off",
+    "6:00 — deliver clear, personal value (skills to build) so viewer feels rewarded",
+    "7:00 — CTA placed after value delivery, not before, to maximize watch-through"
+  ],
+  "visual_cues": [
+    "Lower-third stat callouts (e.g., '25-30% CAGR', '$150-200B market') timed to VO",
+    "Split-screen: exec quote vs developer tweet reaction",
+    "Animated bar/line charts for benchmark comparisons (speed, bug rate, task complexity)",
+    "Bold text overlays for key reframes: 'TASKS, NOT JOBS'",
+    "Report mockup/cover reveal during flagship-report tease"
+  ],
+  "b_roll": [
+    "Screen recordings of Devin, Cursor, Copilot in action completing coding tasks",
+    "Developer working at desk, expression shifting from focused to concerned (stock/staged)",
+    "Scrolling montage of Reddit/Twitter debate threads",
+    "Abstract data visualization / server room or code-on-screen aesthetic",
+    "Close-up of flagship report pages or dashboard interface"
+  ],
+  "transitions": [
+    "Whip-pan or quick cut between conflicting headline clips in opening montage",
+    "Hard cut from host talking-head to full-screen data chart",
+    "Text-driven transition cards (e.g., 'THE NUANCE') between major sections",
+    "Zoom transition from dashboard stat into host reaction shot",
+    "Fade-to-report-mockup transition heading into CTA"
+  ],
+  "emotional_arc": [
+    "Anxiety/tension (opening) — mirror audience fear directly",
+    "Curiosity/skepticism (setup) — present conflicting claims to validate confusion",
+    "Credibility/relief (data section) — grounded, evidence-based tone reduces panic",
+    "Clarity/reframe (nuance) — shift from fear to nuanced understanding",
+    "Empowerment/motivation (takeaway + CTA) — end on actionable confidence, not dread"
+  ],
+  "pacing": [
+    "Fast cuts (2-4 sec) in opening hook to match high-anxiety, high-stimulation attention pattern",
+    "Slightly slower, authoritative pace during data section to let stats land",
+    "Moderate pace in nuance section with deliberate pauses on key reframes",
+    "Quicken pace again for actionable takeaway list to build momentum",
+    "Slow, direct-to-camera close for CTA to build trust and conversion intent"
+  ],
+  "ending": [
+    "Direct-to-camera summary: 'AI replaces tasks, not (yet) jobs—here's what to do about it'",
+    "Visual tease of flagship 'State of AI in Software Engineering' report cover",
+    "Clear CTA: subscribe for weekly data-driven verdicts, link to report in description",
+    "Closing line reinforcing brand positioning: 'No hype. No fear. Just data.'"
+  ],
+  "recommendations": [
+    "Keep data section visually dense but narratively simple—one stat, one takeaway at a time",
+    "Use consistent on-screen branding (chart style, color, font) to build 'Gartner-like' authority signal",
+    "Insert at least one pattern interrupt every 45-60 seconds to sustain retention given topic's talk-heavy format",
+    "Avoid resolving the core question too early—delay definitive verdict until nuance section for maximum watch time",
+    "A/B test opening hook variants (fear-first vs curiosity-first) given high anxiety in target audience"
+  ],
+  "summary": "This structure opens with a high-anxiety, curiosity-driven hook mirroring the audience's core fear, then builds credibility through data-backed evidence before delivering a nuanced, empowering reframe and actionable takeaways. Pacing shifts from fast/urgent to measured/authoritative to motivational, with visual proof points and recurring curiosity loops sustaining retention throughout. The ending reinforces the brand's editorial-neutrality positioning while driving subscription and flagship report conversion."
+}

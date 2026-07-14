@@ -1,0 +1,60 @@
+{
+  "workspace_id": "P001",
+  "opening_hooks": [
+    "25 million developers are asking the same terrifying question right now.",
+    "Devin, Cursor, Copilot: three products, one existential question for engineers.",
+    "Everyone's arguing about AI and coding. Almost nobody has the data.",
+    "Tech executives keep making bold claims. Here's what the numbers actually say.",
+    "Your job title might survive. Your job description almost certainly won't."
+  ],
+  "curiosity_hooks": [
+    "We benchmarked AI coding tools against real engineers. Results surprised us.",
+    "The 'AI will replace engineers' debate is missing one critical data point.",
+    "What Stack Overflow's survey data reveals about your actual replacement risk.",
+    "Why the loudest AI predictions are usually made by people selling something.",
+    "The skill that determines if AI helps or replaces you isn't coding."
+  ],
+  "emotional_hooks": [
+    "You didn't spend years learning to code just to be automated away.",
+    "The anxiety keeping engineers up at night deserves real answers, not hype.",
+    "Nobody warned you your career could change this fast. We're fixing that.",
+    "Your livelihood isn't a headline. It deserves evidence, not fear-mongering.",
+    "Feeling replaceable is exhausting. Clarity is the antidote to that fear."
+  ],
+  "authority_hooks": [
+    "We built the Gartner of AI-in-software-engineering. Here's what it shows.",
+    "Our proprietary benchmark data cuts through the vendor hype and doom talk.",
+    "25M developers, one flagship report: the definitive State of AI in Engineering.",
+    "We don't sell AI tools. That's exactly why our data is trustworthy.",
+    "Editorial neutrality isn't our tagline—it's our entire competitive advantage."
+  ],
+  "contrarian_hooks": [
+    "AI won't replace engineers. It will replace engineers who refuse to adapt.",
+    "The 'AI takes all coding jobs' narrative is mostly marketing, not reality.",
+    "Everyone's afraid of Devin. Almost nobody's read the actual benchmark data.",
+    "The doomers and the hypesters are both wrong—and both profiting from you.",
+    "Your job isn't disappearing. Your job description already has, quietly."
+  ],
+  "short_form_hooks": [
+    "AI won't replace you. An engineer using AI will.",
+    "25M developers. One question. Zero honest answers—until now.",
+    "The data on AI coding tools nobody wants you to see.",
+    "Stop reading hot takes. Start reading benchmark data.",
+    "Your career fear, backed by actual evidence."
+  ],
+  "long_form_hooks": [
+    "In a $150B market growing 30% annually, here's what actually happens to engineering careers when AI tools mature.",
+    "We surveyed the AI coding tool landscape—Devin, Cursor, Copilot—so you don't have to guess your career trajectory.",
+    "Between tech-exec hype and developer doom-scrolling lies the real story: proprietary data on AI's true impact on engineering jobs.",
+    "This is the flagship report 25 million anxious developers have been waiting for, built on evidence instead of executive soundbites.",
+    "Forget the polarized debate—here's a data-driven breakdown of which engineering skills AI augments, and which it actually replaces."
+  ],
+  "recommendations": [
+    "Lead with data-specific hooks (benchmarks, survey numbers, report findings) to reinforce editorial authority positioning.",
+    "Use contrarian hooks sparingly on LinkedIn/Twitter to spark debate while maintaining neutral, evidence-based brand tone.",
+    "Pair emotional hooks with immediate authority follow-up (e.g., 'here's the data') to avoid appearing fear-mongering.",
+    "Test short-form hooks on Twitter/X and long-form hooks in LinkedIn articles or newsletter intros for channel fit.",
+    "Reserve strongest curiosity hooks for flagship report launch and gated content to drive email signups."
+  ],
+  "summary": "These hooks position the brand as the neutral, data-driven authority on AI's impact on software engineering careers, balancing developer anxiety with evidence-based clarity across channels and content formats."
+}
